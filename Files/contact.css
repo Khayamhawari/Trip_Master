@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #ff5100;
+    --tirnary-color: #093466;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+/* ________________________________________________________ */
+.header {
+    background-color: var(--tirnary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header .top-h3 {
+    font-size: 1.80rem;
+}
+
+.header .top-h5 {
+    font-size: 1.20rem;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.contact-div h2 {
+    font-size: 2.60rem;
+}
+
+.contact-div .location {
+    font-size: 1.20rem;
+    margin-top: 40px;
+    color: var(--tirnary-color);
+}
+
+.contact-div .website {
+    font-size: 1.20rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--tirnary-color);
+}
+
+.contact-div .website a {
+    text-decoration: none;
+    color: var(--tirnary-color);
+}
+
+.contact-div .email {
+    font-size: 1.20rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--tirnary-color);
+}
+
+.contact-div .number {
+    font-size: 1.20rem;
+    margin-top: 5px;
+    color: var(--tirnary-color);
+}
+
+/* Footer section start from here  */
+.footer-section {
+    background-color: var(--tirnary-color);
+    height: 450px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.vip-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    color: var(--primary-color);
+}
+
+.vip-links h4 {
+    font-size: 1.40rem;
+}
+
+.vip-links .hover-link {
+    text-decoration: none;
+    color: #ffffff70;
+    font-size: 1.10rem;
+    transition: 0.4s ease;
+}
+
+.vip-links .hover-link:hover {
+    color: var(--primary-color);
+}
+
+.main-footer {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 90px;
+}
+
+.main-footer .logo-heading {
+    text-decoration: none;
+}
+
+.logo-heading .first-logo-text {
+    color: var(--primary-color);
+    font-size: 1.70rem;
+    font-weight: 700;
+}
+
+.logo-heading .second-logo-text {
+    color: var(--secondary-color);
+    font-size: 1.70rem;
+    font-weight: 700;
+}
+
+
+/* sub-footer section strat from here*/
+
+.sub-footer {
+    padding: 30px;
+    padding-bottom: 8px;
+    background-color: var(--tirnary-color);
+}
+
+.sub-footer-container {
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 1px solid #ffffff70;
+}
+
+.sub-footer-container a {
+    color: var(--primary-color);
+    margin-block: 25px;
+    text-decoration: none;
+}
+
+.copyright-area {
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.copyright-area p {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.socialmedia {
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.socialmedia a {
+    font-size: 1.80rem;
+    transform: scale(1);
+    transition: 0.4s ease;
+}
+
+.socialmedia a:hover {
+    transform: scale(1.1);
+}
+
+
+/* media quires start from here  */
+
+@media only screen and (max-width: 990px) {
+    .main-footer {
+        flex-direction: column;
+        height: 1100px;
+        margin-left: 20px;
+    }
+
+    .footer-section {
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header .top-h3 {
+        font-size: 1.20rem;
+    }
+
+    .header .top-h5 {
+        font-size: 1rem;
+    }
+
+    .contact-div h2 {
+        text-align: center;
+        font-size: 1.50rem;
+    }
+
+    .contact-div .location {
+        font-size: 1rem;
+    }
+    
+    .contact-div .website {
+        font-size: 1rem;
+    }
+    
+    .contact-div .email {
+        font-size: 1rem;
+    }
+    
+    .contact-div .number {
+        font-size: 1rem;
+    }
+
+    .sub-footer-container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .copyright-area {
+        margin-top: 20px;
+    }
+
+    .copyright-area p {
+        text-align: center;
+    }
+
+    .vip-links h4 {
+        font-size: 1.20rem;
+    }
+
+    .vip-links .hover-link {
+        font-size: 1rem;
+    }
+
+    .socialmedia {
+        margin-bottom: -26px;
+    }
+
+
+}

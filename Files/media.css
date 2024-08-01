@@ -1,0 +1,281 @@
+@media only screen and (max-width: 1065px) {
+    #open-menu {
+        display: block;
+    }
+
+    .box-icon div {
+        position: relative;
+        width: 35px;
+        height: 30px;
+    }
+
+    .box-icon span {
+        background-color: var(--tirnary-color);
+        height: 3px;
+        width: 90%;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.3s ease-in-out;
+    }
+
+    .box-icon .line-1 {
+        transform: translate(-50%, -9px);
+    }
+
+    .box-icon .line-3 {
+        transform: translate(-50%, 6px);
+    }
+
+    .openmenu .line-1 {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .openmenu .line-2 {
+        width: 0;
+    }
+
+    .openmenu .line-3 {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .main-nav {
+        flex-direction: column;
+        position: absolute;
+        left: 100%;
+        top: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0;
+        height: 100vh;
+        background-color: var(--primary-color);
+        transition: 0.4s all ease;
+    }
+
+    .main-nav.active {
+        left: 0;
+    }
+
+    .main-nav a {
+        font-size: 1.50rem;
+        margin-top: -15px;
+        color: var(--tirnary-color);
+    }
+
+    .main-nav .signup-btn {
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-content h2 {
+        font-size: 3.20rem;
+    }
+
+    .destination-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-us-div {
+        flex-direction: column;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .pic img {
+        width: 100%;
+        height: 650px;
+        margin-top: 10px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .about-grid {
+        align-items: center;
+        width: 665px;
+        margin: 90px 10px;
+    }
+
+    .about-grid h2 {
+        text-align: center;
+    }
+
+    .about-grid p {
+        text-align: center;
+    }
+
+    .pacakages-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        height: 1100px;
+        margin-left: 20px;
+    }
+
+    .footer-section {
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px 50px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.80rem;
+        width: 500px;
+    }
+
+    .sub-footer-container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .copyright-area {
+        margin-top: 20px;
+    }
+
+    .copyright-area p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .main-nav a  {
+        font-size: 1rem;
+    }
+    .about {
+        margin: 90px 20px;
+    }
+
+    .about-grid {
+        width: 390px;
+    }
+
+    .about-grid h1 {
+        font-size: 2rem;
+    }
+
+    .about-grid h2 {
+        font-size: 1.40rem;
+        width: 450px;
+    }
+
+    .about-grid p {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        width: 480px;
+    }
+
+    .about-button {
+        margin: 30px 43px;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    .logo {
+        font-size: 1.20rem;
+    }
+
+    .box-icon div {
+        width: 29px;
+        height: 30px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.90rem;
+    }
+
+    .hero-content p {
+        font-size: 1.50rem;
+    }
+
+
+    .hero-content .hero-button {
+        font-size: 0.9rem;
+        padding: 12px 124px;
+    }
+
+    .destination-item .destination-content p {
+        font-size: 0.9rem;
+    }
+
+    .destination-item .destination-content h3 {
+        font-size: 1.50rem;
+    }
+
+    .about-grid h1 {
+        font-size: 2rem;
+    }
+
+    .about-grid h2 {
+        font-size: 1.40rem;
+        width: 350px;
+    }
+
+    .about-grid p {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        width: 326px;
+    }
+
+    .about-button {
+        margin: 30px 43px;
+        padding: 12px 110px;
+    }
+
+    .pacakages-item .box-content span {
+        width: 68%;
+        font-size: 0.7rem;
+    }
+
+    .pacakages-item .box-content h3 {
+        font-size: 1.10rem;
+    }
+
+    .pacakages-item .box-content h4 {
+        font-size: 0.8rem;
+    }
+
+    .pacakages-item .box-content p {
+        font-size: 1.10rem;
+    }
+
+    .pacakages-item .box-content .spc-btn {
+        font-size: 0.9rem;
+    }
+
+    .logo-heading .first-logo-text {
+        font-size: 1.40rem;
+    }
+    
+    .logo-heading .second-logo-text {
+        font-size: 1.40rem;
+    }
+    .vip-links h4 {
+        font-size: 1.20rem;
+    }
+
+    .vip-links .hover-link {
+        font-size: 1rem;
+    }
+
+    .socialmedia {
+        margin-bottom: -26px;
+    }
+
+}
