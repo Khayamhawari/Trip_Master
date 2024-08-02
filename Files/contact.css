@@ -233,6 +233,10 @@ body {
         font-size: 1rem;
     }
 
+    .sub-footer {
+        padding-bottom: 30px;
+    }
+
     .sub-footer-container {
         flex-direction: column-reverse;
         gap: 0;

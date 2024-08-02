@@ -40,6 +40,7 @@ li {
 .container {
     max-width: 1280px;
     margin-inline: auto;
+    padding-inline: 20px;
 }
 
 /* header section start from here  */
@@ -404,10 +405,14 @@ li {
 
 @media only screen and (max-width: 550px) {
     .top-h3 {
-        font-size: 1.20rem;
+        font-size: 1.10rem;
     }
     .top-h5 {
         font-size: 1rem;
+    }
+
+    .sub-footer {
+        padding-bottom: 30px;
     }
 
     .sub-footer-container {
