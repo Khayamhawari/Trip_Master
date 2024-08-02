@@ -32,14 +32,18 @@ const SignInUser = () => {
             // Sign In 
             console.log(userCredential);
             alert('Login Successfully!')
+            setTimeout(()=>{
+                window.location.href = './packages.html';
+            }, 2000)
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
             console.log(errorCode);
             console.log(errorMessage);
+            alert('Somthing went wrong! Please fill the details correctly');
         });
-        window.location.href = './packages.html';
+       
 }
 
 SignInBtn.addEventListener('click', (e) => {

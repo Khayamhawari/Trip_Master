@@ -31,7 +31,10 @@ SignUpBtn.addEventListener('click', (e) => {
     })
     RegisterUser();
     alert('Sign Up successfully!');
-    window.location.href = './packages.html';
+    setTimeout(()=>{
+        window.location.href = './packages.html';
+    }, 2000)
+    
 });
 
 // signup with email and password 
