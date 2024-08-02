@@ -1,4 +1,4 @@
-# Trip Master [Easy Travel Planning and Booking Wesbite]
+# Trip Master [Easy Travel Planning and Booking Website]
 
 ## Technologies Used
 - HTML5
