@@ -57,6 +57,7 @@ li {
 
 .header .top-h5 {
     font-size: 1.20rem;
+    font-weight: 500;
 }
 
 /* left side content section start from here  */
@@ -404,10 +405,10 @@ li {
 }
 
 @media only screen and (max-width: 550px) {
-    .top-h3 {
-        font-size: 1.10rem;
+    .header .top-h3 {
+        font-size: 1.20rem;
     }
-    .top-h5 {
+    .header .top-h5 {
         font-size: 1rem;
     }
 
@@ -447,6 +448,14 @@ li {
     .box {
         height: 838px;
         padding: 0 16px;
+    }
+
+    .payment-main-div {
+        padding: 10px 20px;
+    }
+
+    .primary-container {
+        margin-left: 0;
     }
 
     .amt {
