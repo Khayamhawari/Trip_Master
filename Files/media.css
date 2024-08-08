@@ -197,17 +197,22 @@
     }
 
     .hero-content h2 {
-        font-size: 1.90rem;
+        font-size: 1.70rem;
+        width: 341px;
     }
 
     .hero-content p {
-        font-size: 1.50rem;
+        font-size: 1.40rem;
     }
 
 
     .hero-content .hero-button {
         font-size: 0.9rem;
         padding: 12px 124px;
+    }
+
+    .destinations h2 {
+        font-size: 1.50rem;
     }
 
     .destination-item .destination-content p {
@@ -236,6 +241,14 @@
     .about-button {
         margin: 30px 43px;
         padding: 12px 110px;
+    }
+
+    .pacakages {
+        margin: 40px 25px;
+    }
+
+    .pacakages h2 {
+        font-size: 1.50rem;
     }
 
     .pacakages-item .box-content span {
