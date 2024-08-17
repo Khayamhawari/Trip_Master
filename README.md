@@ -5,6 +5,7 @@
 - CSS3
 - Bootstrap 
 - JavaScript
+- Firebase
 
 ## Custom Fonts 
 - https://fonts.google.com/?query=poppins
