@@ -12,5 +12,9 @@
 ## Custom Icons
 - https://fontawesome.com/search
 
+## Version 2.0
+- Add own page of all destinations 
+- Imrove Backend like Sign In and Sign Up and basic Payment Gateway
+
 ## Hosted URL 
 - https://tripmaster.netlify.app/
