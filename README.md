@@ -13,9 +13,15 @@
 ## Custom Icons
 - https://fontawesome.com/search
 
+## Version 1.0
+- See Destinations in TripMaster 
+- Add Static SignIn and SignUp Feature
+
 ## Version 2.0
 - Add own page of all destinations 
 - Imrove Backend like Sign In and Sign Up and basic Payment Gateway
+- Enhanced UI & UX of TripMaster
+- Get up to 10% Discount as a Member (Platform User) of TripMaster
 
 ## Hosted URL 
 - https://tripmaster.netlify.app/
